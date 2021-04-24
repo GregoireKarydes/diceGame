@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js" integrity="sha512-cdV6j5t5o24hkSciVrb8Ki6FveC2SgwGfLE31+ZQRHAeSRxYhAQskLkq3dLm8ZcWe1N3vBOEYmmbhzf7NTtFFQ==" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice's Game</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="user">
+        <div class="player" id="player1">
+            <h1>Current score : <span id="current1">0</span></h1>
+            <h3>PLAYER 1 <br> <span id="scoreSaved1" style="color: #be2f54;">0</span></h3>
+            <div class="imgDe">
+                <img src="img/1.png" id="player1De1">
+                <img src="img/2.png" id="player1De2">
+                <img src="img/3.png" id="player1De3">
+                <img src="img/4.png" id="player1De4">
+                <img src="img/5.png" id="player1De5">
+                <img src="img/6.png" id="player1De6">
+            </div>
+
+            <button id="dice1"> <img id="dice" src="img/dice.png"> Roll dice</button>
+            <button id="load1"> <img id="pig" src="img/piggy-bank.png"> Hold</button>
+        </div>
+
+        <div class="player" id="player2">
+            <h1>Current score : <span id="current2">0</span></h1>
+            <h3>PLAYER 2 <br> <span id="scoreSaved2" style="color: #be2f54;">0</span></h3>
+            <div class="imgDe">
+                <img src="img/1.png" id="player2De1">
+                <img src="img/2.png" id="player2De2">
+                <img src="img/3.png" id="player2De3">
+                <img src="img/4.png" id="player2De4">
+                <img src="img/5.png" id="player2De5">
+                <img src="img/6.png" id="player2De6">
+            </div>
+            <button id="dice2"><img id="dice" src="img/dice.png"> Roll dice</button>
+            <button id="load2"> <img id="pig" src="img/piggy-bank.png">Hold</button>
+        </div>
+    </div>
+
+    <div class="win">
+        <h1> Player :  <span id="winner"></span></h1>
+        <p> wins the game</p>
+        <a href="index.html"> Play again</a>
+    </div>
+
+    
+</body>
+
+<script src="script.js"></script>
+</html>

@@ -1,0 +1,165 @@
+* {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+body{
+    background: linear-gradient(90deg,#b32930,#6c3175);
+    background-size: cover;
+}
+
+h3 {
+    position: relative;
+    top: 30px;
+    font-size: 50px;
+    font-weight: 100;
+    letter-spacing: 5px;
+}
+
+
+h1 {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    background-color: #c02f57;
+    padding: 10px;
+    width: 40%;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+
+.user {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.player {
+    width: 50%;
+    text-align: center;
+    margin-top: 100px;
+    height: 80vh;
+    border: 0px solid black;
+    border-radius: 10px;
+    color: black;
+}
+
+.player button {
+    display: block;
+    text-align: center;
+    margin-left :auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 50%;
+    padding: 20px 0;
+    background-color: white;
+    color: black;
+    border-radius: 40px;
+    border : 0px;
+    font-weight: 100;
+    position: relative;
+    top : 5%;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+#player1 {
+    opacity: 1;
+    cursor: initial;
+    background-color:#d5a4b4;
+}
+
+
+#player2 {
+    opacity: 0.3;
+    background-color:#d5a4b4;
+}
+
+
+.imgDe img {
+    display: block;
+    width: 20%;
+    margin : 0 auto;
+    margin-top: 50px;
+}
+
+#player1De1{
+    display: none;
+}
+#player1De2 {
+    display: none;
+}
+#player1De3 {
+    display: none;
+}
+#player1De4 {
+    display: none;
+}
+#player1De5 {
+    display: none;
+}
+#player1De6 {
+    display: none;
+}
+
+#player2De1{
+    display: none;
+}
+#player2De2 {
+    display: none;
+}
+#player2De3 {
+    display: none;
+}
+#player2De4 {
+    display: none;
+}
+#player2De5 {
+    display: none;
+}
+#player2De6 {
+    display: none;
+}
+
+.win {
+    background-color:#6c3175;
+    position: fixed;
+    position: absolute;
+    height: 30vh;
+    width: 40%;
+    left: 30%;
+    bottom: 35%;
+    text-align: center;
+    border: 0px;
+    display: block;
+    border-radius: 20px;
+}
+
+.win h1 {
+    margin-top: 20px;
+}
+
+.win p {
+    color: white;
+}
+
+.win a {
+    background-color: white;
+    padding : 10px 20px;
+    border-radius: 15px;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    top: 30px;
+    text-decoration: none;
+}
+
+#dice, #pig{
+    width: 7%;
+    margin-right: 20px;
+}
